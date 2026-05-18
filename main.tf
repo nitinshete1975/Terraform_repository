@@ -9,8 +9,8 @@ terraform {
 
 provider "hyperv" {
   host     = "CBM-IT-684.cbm.local"
-  user     = "cbm\\shetent"
-  password = "Ayops5200l@1975"
+  user     = "d"
+  password = "tata"
 }
 
 resource "hyperv_machine_instance" "vm1" {
